@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./css/styles.css" rel="stylesheet">
+        <script defer src="./js/script.js"></script>
+        <title>Aspiring Tech-Priest</title>
+        <link rel="icon" type="image/png" href="./img/favicon.png" sizes="32x32" />
+    </head>
+    <body>
+        <header class="page-header">
+            <div id="top">
+                <img src="./img/pagelogo.png" width="240" height="100" alt="Logo" class="navLogo">
+            </div>
+              <nav role="menubar" class="navList">
+                <button 
+                    onclick="location.href='index.html'"
+                    type="button"
+                    class="navBtn"
+                >
+                    Home
+                </button>
+                <button 
+                    onclick="location.href='about.html'"
+                    type="button"
+                    class="navBtn"
+                >
+                    About Me
+                </button> 
+                <button 
+                    onclick="location.href='projects.html'"
+                    type="button"
+                    class="navBtn"
+                >
+                    Projects
+                </button>
+            </nav>
+        </header>
+            <div class="contact-container">
+                <div class="contact-text">
+                    <h1>My Contact Information:</h1>
+                    <h2>Justin W. Eastin</h2>
+                    <h3>
+                        Jacksonville Fl.<br><br>
+                        <a href="tel:904-708-7561">Phone: 904-708-7561</a><br><br>
+                        <a href="mailto:drixaboi@gmail.com">Drixaboi@gmail.com</a><br><br>
+                    </h3>
+                </div>
+                <div class="contact-input">
+                    <form action="#" id="contact-form">
+                        <div class="contactField">
+                            <label class="standard-label" for="email">
+                                Email:<br>
+                                <input id="email" placeholder="Enter your email" required/>
+                            </label>
+                        </div>
+                        <div class="contactField">
+                            <label class="standard-label" for="tele">
+                                Telephone:<br>
+                                <input id="tele" placeholder="###-###-####" type="tel">
+                            </label>
+                        </div>
+                        <div class="contactField">
+                            <label class="standard-label" for="message">
+                                Message:<br>
+                                <textarea id="message" maxlength="250" required>250 max</textarea>
+                            </label>
+                        </div><br>
+                        <div class="contactField">
+                            <input class="submit-button" id="submit-button" type="submit" value="Send Message">
+                        </div>
+                    </form>
+            </div>
+        <footer class="footer-container">
+            <div class="footer-div">
+                <div class="social-title">
+                    <h3>My Social Networks:</h3>
+                </div>
+                <div class="social-media">
+                    <button 
+                        onclick="location.href='https://www.facebook.com/justin.easton.3158/'" 
+                        type="button"
+                        class="socialBtn"
+                        target="_blank"
+                    >
+                        <img class="socialPic" src="./img/facebook.svg" width="32" height="32" alt="facebook">
+                    </button>
+                    <button 
+                        onclick="location.href='https://www.instagram.com/redm0n/'" 
+                        type="button"
+                        class="socialBtn"
+                        target="_blank"
+                    >
+                        <img class="socialPic" src="./img/instagram.svg" width="32" height="32" alt="instagram">    
+                    </button>
+                    <button 
+                        onclick="location.href='https://github.com/DrixaBoi'" 
+                        type="button"
+                        class="socialBtn"
+                        target="_blank"
+                    >
+                        <img class="socialPic" src="./img/github.svg" width="32" height="32" alt="Github">    
+                    </button>
+                    <button 
+                        onclick="location.href='https://www.linkedin.com/in/justin-eastin-514a59223/'"
+                        type="button"
+                        class="socialBtn"
+                        target="_blank"
+                    >
+                        <img class="socialPic" src="./img/linkedin.svg" width="32" height="34" alt="Linkedin">        
+                    </button>
+                </div>
+                <div class="topBtnDIV">
+                    <button
+                        onclick="location.href='#top'"
+                        type="button"
+                        class="topBtn"
+                    >
+                        Back to top
+                    </button>
+                </div>
+            </div>
+        </footer>  
+    </body>
+</html>
